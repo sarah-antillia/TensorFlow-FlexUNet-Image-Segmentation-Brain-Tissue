@@ -192,14 +192,12 @@ By using this epoch_change_infer callback, on every epoch_change, the inference 
 <br>
 <b>Epoch_change_inference output at ending (48,49,50)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Brain-Tissue/asset/epoch_change_infer_at_end.png" width="1024" height="auto"><br>
-
 <br>
 In this experiment, the training process was terminated at epoch 50.<br><br>
 <img src="./projects/TensorFlowFlexUNet/Brain-Tissue/asset/train_console_output_at_epoch50.png" width="880" height="auto"><br>
 <br>
 <a href="./projects/TensorFlowFlexUNet/Brain-Tissue/eval/train_metrics.csv">train_metrics.csv</a><br>
 <img src="./projects/TensorFlowFlexUNet/Brain-Tissue/eval/train_metrics.png" width="520" height="auto"><br>
-
 <br>
 <a href="./projects/TensorFlowFlexUNet/Brain-Tissue/eval/train_losses.csv">train_losses.csv</a><br>
 <img src="./projects/TensorFlowFlexUNet/Brain-Tissue/eval/train_losses.png" width="520" height="auto"><br>
@@ -218,7 +216,6 @@ This bat file simply runs the following command.
 Evaluation console output:<br>
 <img src="./projects/TensorFlowFlexUNet/Brain-Tissue/asset/evaluate_console_output_at_epoch50.png" width="880" height="auto">
 <br><br>Image-Segmentation-Brain-Tissue
-
 <a href="./projects/TensorFlowFlexUNet/Brain-Tissue/evaluation.csv">evaluation.csv</a><br>
 The loss (categorical_crossentropy) to this Brain-Tissue/test was not low, and dice_coef_multiclass not high as shown below.
 <br>
