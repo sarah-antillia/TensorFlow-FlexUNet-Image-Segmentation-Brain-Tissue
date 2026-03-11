@@ -13,8 +13,7 @@ and a 512x512 pixels PNG
 To address the limited size of images and masks of the original <b>brain tissue segmentation dataset</b>, 
 we used our offline augmentation tool <a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a> 
  to generate the augmented dataset. Please see also <a href="https://github.com/sarah-antillia/Image-Deformation-Tool">Image-Deformation-Tool</a>. 
- 
- <br><br> 
+<br><br> 
 <hr>
 <b>Actual Image Segmentation for Brain-Tissue Images of  512x512 pixels </b><br>
 As shown below, the inferred masks predicted by our segmentation model trained by the dataset appear similar to the ground truth masks.
@@ -52,12 +51,10 @@ The dataset used here was derived from <br><br>
 <a href="https://www.kaggle.com/datasets/rishukumaroo7/ibsr-brain-tissue-segmentation-dataset/data">
 <b>ibsr - brain tissue segmentation dataset</b> </a><br>
 IBSR: High-Resolution Brain MRI and Segmentation Masks.
-
 <br><br>
 The following explanation was taken from the zenodo.org web site.
 <br><br>
 The Dataset IBSR consists of mri images (in .npy format) for about 20 patients.<br>
- 
 1. The MRI scans are taken from the axial plane<br><br>
 2. The scans are 3D images of size 48 x 192 x 192 X 1. (slices, image height, image width, channel) <br>
    ![image.png](attachment:image.png)<br>
@@ -93,7 +90,6 @@ please down load our dataset
         ├─images
         └─masks
 </pre>
-
 <b>Brain-Tissue Statistics</b><br>
 <img src ="./projects/TensorFlowFlexUNet/Brain-Tissue/Brain-Tissue_Statistics.png" width="512" height="auto"><br>
 <br>
