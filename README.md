@@ -224,6 +224,9 @@ categorical_crossentropy,0.0643
 dice_coef_multiclass,0.9683
 </pre>
 <br>
+<h3>
+5 Inference
+</h3>
 Please move to a <b>./projects/TensorFlowFlexUNet/Brain-Tissue</b> folder, and run the following bat file to infer segmentation regions for images by the Trained-TensorflowFlexUNet model for Brain-Tissue.<br>
 <pre>
 >./3.infer.bat
